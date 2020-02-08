@@ -32,7 +32,7 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 
 ## Prerequisite
 - [x] Python 3.X
-- [x] APKsigner or Jarsigner  [One of them]
+- [x] APKsigner or Jarsigner  [**One of them**]
 - [x] APK Tool [**Latest**]
 - [x] ZipAlign
 
