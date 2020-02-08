@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/logo.png" alt="APK Infector Logo" width=300 height=200/>
+</p>
+
 <h1 align="center">APK Infector</h1>
 <p align="center">
     <a href="https://python.org">
