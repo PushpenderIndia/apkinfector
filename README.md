@@ -37,7 +37,7 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 - [x] ZipAlign
 
 ## Tested On
-[![Kali)](https://www.google.com/s2/favicons?domain=https://www.kali.org/)](https://www.kali.org) **Kali Linux - 2019.4
+[![Kali)](https://www.google.com/s2/favicons?domain=https://www.kali.org/)](https://www.kali.org) **Kali Linux - 2019.4**
 
 ## Installation
 
