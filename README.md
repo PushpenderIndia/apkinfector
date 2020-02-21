@@ -34,6 +34,11 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 - [x] Shuffles the Permissions of Meterpreter APK for AV Evasion
 - [x] Changes the default foldername and filenames which are being flagged by AV
 
+## Tools Overview
+| Front View | Sample Feature	|
+| ------------  | ------------ |
+|![Index](https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/apkinfector%201.png)|![f](https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/apkinfector%202.png)
+
 ## Prerequisite
 - [x] Python 3.X
 - [x] APKsigner or Jarsigner  [**One of them**]
