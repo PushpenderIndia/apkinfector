@@ -12,7 +12,7 @@ BLUE, RED, WHITE, YELLOW, MAGENTA, GREEN, END = '\33[94m', '\033[91m', '\33[97m'
 
 def get_arguments():
     banner.banner1()
-    parser = argparse.ArgumentParser(description=f'{RED}APK Injector v1.0')
+    parser = argparse.ArgumentParser(description=f'{RED}APK Infector v1.0')
     parser._optionals.title = f"{GREEN}Optional Arguments{YELLOW}"
       
     required_arguments = parser.add_argument_group(f'{RED}Required Arguments{GREEN}')
