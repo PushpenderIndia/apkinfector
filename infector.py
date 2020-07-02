@@ -173,8 +173,11 @@ def hook_meterpreter_in_apk(VAR1, VAR2, VAR3):
             launcherActivity = str(launcherActivity.strip()).split('\'')[1]
             break
         lineNumber = lineNumber - 1
-        
-    launcherActivity = str(launcherActivity).split('\'')[1]
+    
+    try:
+        launcherActivity = str(launcherActivity).split('\'')[1]
+    except Exception:
+        launcherActivity = ""
     
     if launcherActivity == "":
         print(f"{RED}[!] Unable to locate the .smali launcher in AndroidManifest.xml")
