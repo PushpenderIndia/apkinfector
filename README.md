@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/logo.png" alt="APK Infector Logo" width=300 height=200/>
+  <img src="https://github.com/PushpenderIndia/apkinfector/blob/master/img/logo.png" alt="APK Infector Logo" width=300 height=200/>
 </p>
 
 <h1 align="center">APK Infector</h1>
@@ -7,13 +7,13 @@
     <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3-green.svg">
   </a>
-  <a href="https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/LICENSE">
+  <a href="https://github.com/PushpenderIndia/apkinfector/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-BSD%203-lightgrey.svg">
   </a>
-  <a href="https://github.com/Technowlogy-Pushpender/apkinfector/releases">
+  <a href="https://github.com/PushpenderIndia/apkinfector/releases">
     <img src="https://img.shields.io/badge/Release-1.0-blue.svg">
   </a>
-    <a href="https://github.com/Technowlogy-Pushpender/apkinfector">
+    <a href="https://github.com/PushpenderIndia/apkinfector">
     <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg">
   </a>
 </p>
@@ -37,7 +37,7 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 ## Tools Overview
 | Front View | Sample Feature	|
 | ------------  | ------------ |
-|![Index](https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/apkinfector%201.png)|![f](https://github.com/Technowlogy-Pushpender/apkinfector/blob/master/img/apkinfector%202.png)
+|![Index](https://github.com/PushpenderIndia/apkinfector/blob/master/img/apkinfector%201.png)|![f](https://github.com/PushpenderIndia/apkinfector/blob/master/img/apkinfector%202.png)
 
 ## Prerequisite
 - [x] Python 3.X
@@ -56,7 +56,7 @@ Advanced Android Antivirus Evasion Tool Written In Python 3 that can Embed/Bind 
 $ cd /opt/
 
 # Clone this repository
-$ git clone https://github.com/Technowlogy-Pushpender/apkinfector.git
+$ git clone https://github.com/PushpenderIndia/apkinfector.git
 
 # Navigate to technowlogger folder
 $ cd apkinfector
@@ -96,9 +96,8 @@ $ python3 infector.py --lhost 192.168.43.70 --lport 4444 --apk-name NEW_APK_NAME
 
 singhpushpender250@gmail.com 
 
-## Believes In Donation
-* Buy Me A Coffe : https://paypal.me/anonyindia 
-* Paypal Email : singhpushpender250@gmail.com
+## Buy Me A Coffe
+* Paypal Email : shrisatender@gmail.com
 
 ## More Features Coming Soon...
 
