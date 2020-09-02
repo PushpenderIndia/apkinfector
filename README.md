@@ -96,8 +96,11 @@ $ python3 infector.py --lhost 192.168.43.70 --lport 4444 --apk-name NEW_APK_NAME
 
 singhpushpender250@gmail.com 
 
-## Buy Me A Coffe
-* Paypal Email : shrisatender@gmail.com
+
+## Buy Me A Coffee
+
+* Support my Open Source projects by making Donation, It really motivates me to work on more projects
+* PayPal Email: `shrisatender@gmail.com` [**Please Don't Send Emails to This Address**]
 
 ## More Features Coming Soon...
 
