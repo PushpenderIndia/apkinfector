@@ -31,7 +31,7 @@ def banner1():
     print(f"                  .MMM.   .MMM.           {WHITE}\n")
     print("╔──────────────────────────────────────────────────────────╗")
     print(f"| {WHITE}[ {RED}Author{WHITE}  ] {YELLOW}Pushpender Singh                             {WHITE}|")   
-    print(f"| [ {RED}GitHub{WHITE}  ] {YELLOW}https://github.com/Technowlogy-Pushpender    {WHITE}|")
+    print(f"| [ {RED}GitHub{WHITE}  ] {YELLOW}https://github.com/PushpenderIndia           {WHITE}|")
     print(f"| [ {RED}YouTube{WHITE} ] {YELLOW}youtube.com/channel/UCRv-wp0CWtW2J33NkTId62w {WHITE}|")
     print("┖──────────────────────────────────────────────────────────┙\n") 
     print("╔──────────────────────────────────────────────────────────╗")
@@ -52,7 +52,7 @@ def banner2():
      \  \.___|l|___/      +===========================================+
      /\      |_|   /    
     (=-\._________/\       ["""+RED+"""Author"""+WHITE+"""] """+GREEN+"""Pushpender Singh"""+WHITE+"""
-     \             /       ["""+RED+"""GitHub"""+WHITE+"""] """+GREEN+"""github.com/Technowlogy-Pushpender"""+WHITE+"""
+     \             /       ["""+RED+"""GitHub"""+WHITE+"""] """+GREEN+"""github.com/PushpenderIndia"""+WHITE+"""
        \._________/       +===========================================+
          #  ----  #       +    Please Contribute To This Project      +
          #   __   #       +===========================================+
